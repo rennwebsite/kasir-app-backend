@@ -1,0 +1,182 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "makanan"
+    },
+    {
+      "id": "2",
+      "name": "minuman"
+    },
+    {
+      "id": "3",
+      "name": "cemilan"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Espresso",
+      "price": 15000,
+      "is-ready": true,
+      "code": "cf-01",
+      "image": "cf-01.jpg",
+      "category": {
+        "id": 1,
+        "name": "makanan"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Americano",
+      "price": 18000,
+      "is-ready": true,
+      "code": "cf-02",
+      "image": "cf-02.jpg",
+      "category": {
+        "id": 1,
+        "name": "makanan"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Cappuccino",
+      "price": 20000,
+      "is-ready": true,
+      "code": "cf-03",
+      "image": "cf-03.jpg",
+      "category": {
+        "id": 1,
+        "name": "makanan"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Mocha",
+      "price": 22000,
+      "is-ready": true,
+      "code": "cf-04",
+      "image": "cf-04.jpg",
+      "category": {
+        "id": 1,
+        "name": "makanan"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Cafe Latte",
+      "price": 21000,
+      "is-ready": true,
+      "code": "cf-05",
+      "image": "cf-05.jpg",
+      "category": {
+        "id": 1,
+        "name": "makanan"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Caramel Macchiato",
+      "price": 25000,
+      "is-ready": true,
+      "code": "cf-06",
+      "image": "cf-06.jpg",
+      "category": {
+        "id": 1,
+        "name": "makanan"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Thai Tea Frappe",
+      "price": 20000,
+      "is-ready": true,
+      "code": "fp-01",
+      "image": "fp-01.jpg",
+      "category": {
+        "id": 2,
+        "name": "minuman"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Vanilla Frappe",
+      "price": 22000,
+      "is-ready": true,
+      "code": "fp-02",
+      "image": "fp-02.jpg",
+      "category": {
+        "id": 2,
+        "name": "minuman"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Chocolate",
+      "price": 18000,
+      "is-ready": true,
+      "code": "ncf-01",
+      "image": "ncf-01.jpg",
+      "category": {
+        "id": 3,
+        "name": "cemilan"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Hot Tea",
+      "price": 10000,
+      "is-ready": true,
+      "code": "ncf-02",
+      "image": "ncf-02.jpg",
+      "category": {
+        "id": 3,
+        "name": "cemilan"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Lemon Tea",
+      "price": 12000,
+      "is-ready": true,
+      "code": "ncf-03",
+      "image": "ncf-03.jpg",
+      "category": {
+        "id": 3,
+        "name": "cemilan"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Orange Juice",
+      "price": 15000,
+      "is-ready": true,
+      "code": "ncf-04",
+      "image": "ncf-04.jpg",
+      "category": {
+        "id": 3,
+        "name": "cemilan"
+      }
+    }
+  ],
+  "carts": [
+    {
+      "jumlah": 3,
+      "total_harga": 60000,
+      "product": {
+        "id": "3",
+        "name": "Cappuccino",
+        "price": 20000,
+        "is-ready": true,
+        "code": "cf-03",
+        "image": "cf-03.jpg",
+        "category": {
+          "id": 1,
+          "name": "makanan"
+        }
+      },
+      "id": "5db6"
+    }
+  ],
+  "orders": []
+}
