@@ -1,6 +1,6 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router("coffe.json");
+const router = jsonServer.router("../coffe.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
